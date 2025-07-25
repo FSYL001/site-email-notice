@@ -55,6 +55,7 @@ email-verification/
 plugin-announcement
 
 自己开发的通知插件
+ight="838" alt="屏幕截图 2025-07-25 153053" src="https://github.com/user-attachments/assets/9437cd5e-08c5-460b-8d10-6d264dd8ad00" />
 
 配置方法详见对应插件文档。
 
@@ -64,6 +65,10 @@ plugin-announcement
 🔗 https://blog.fsyl001.sbs/
 站点名称：風神翼龍の小破站
 
+<img width="1128" height="1005" alt="屏幕截图 2025-07-25 153034" src="https://github.com/user-attachments/assets/0a0bacc2-ce90-4ae5-800f-0d1ef7a68e97" />
+<img width="1150" height="1168" alt="屏幕截图 2025-07-25 153013" src="https://github.com/user-attachments/assets/1e787625-1ded-489a-a2f3-763db8832b0a" />
+<img width="1094" height="783" alt="屏幕截图 2025-07-25 153114" src="https://github.com/user-attachments/assets/ade0c156-fd24-4ba3-8dde-6d451c2a41a4" />
+<img width="1080" he
 
 🙋‍♂️ 作者信息
 👤 作者：风神翼龙（Fengshen Yilong）
