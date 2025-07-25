@@ -47,7 +47,7 @@ email-verification/
 
 修改背景颜色、文字内容
 
-使用你自己的演示站地址（如：https://blog.fsyl001.sbs/）
+使用你自己的演示站地址（如： https://blog.fsyl001.sbs/   ）
 
 3. 应用于 Halo
 将修改后的 HTML 模板配置到 Halo 的邮件通知插件中，例如：
