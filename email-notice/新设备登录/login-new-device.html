@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>账号登录通知</title>
+  <style>
+    body {
+      background-color: #f2f4f6;
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .notification-content {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      overflow: hidden;
+    }
+    .head {
+      background: #ef859d2e;
+      padding: 30px 20px 10px;
+      text-align: center;
+    }
+    .head .honorific {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+      margin: 0;
+    }
+    .head img {
+      margin-top: 15px;
+      width: 80px;
+      height: auto;
+      border-radius: 8px;
+    }
+    .body {
+      padding: 30px 20px;
+      font-size: 16px;
+      color: #444;
+      line-height: 1.6;
+    }
+    .device-info {
+      background-color: #f7f7f7;
+      border-radius: 8px;
+      padding: 10px 15px;
+      margin: 15px 0;
+    }
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+      padding: 20px;
+    }
+    .footer a {
+      color: #db214b;
+      text-decoration: none;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="notification-content">
+    <div class="head">
+      <p class="honorific" th:text="|${subscriber.displayName} 你好：|">用户名 你好：</p>
+      <img src="https://blog.fsyl001.sbs/upload/ChatGPT%20Image%202025%E5%B9%B46%E6%9C%8827%E6%97%A5%2013_21_50.png" alt="图标">
+    </div>
+    <div class="body">
+      <p th:text="|你的 ${site.title} 账号被用于在 ${os} 的 ${browser} 上登录：|">你的 FSYLの小破站 账号被用于在 Windows 的 Chrome 上登录：</p>
+      <div class="device-info">
+        <p th:text="|时间： ${loginTime}|">时间：2025-07-25 12:00</p>
+        <p th:text="|IP 地址： ${ipAddress}|">IP 地址：192.168.0.1</p>
+      </div>
+      <p>如果你知悉上述信息，请忽略此电子邮件。</p>
+      <p th:text="|如果你最近没有使用你的 ${site.title} 账号登录并相信有人可能访问了你的账户，请尽快重设你的密码。|">
+        如果你最近没有使用你的 FSYLの小破站 账号登录并相信有人可能访问了你的账户，请尽快重设你的密码。
+      </p>
+      <p style="margin-top: 20px;">from <a href="https://blog.fsyl001.sbs/">https://blog.fsyl001.sbs/</a></p>
+    </div>
+    <div class="footer">
+      本邮件由系统自动发送，回复无效。
+    </div>
+  </div>
+</body>
+</html>
