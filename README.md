@@ -31,7 +31,7 @@
 你可以直接点击绿色按钮 `Code → Download ZIP` 下载全部内容。  
 或者使用 git 克隆项目：
 
-```bash
+
 git clone https://github.com/FSYL001/site-email-notice.git
 2. 修改模板内容
 进入你需要的通知模板文件夹，比如：
