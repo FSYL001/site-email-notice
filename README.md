@@ -20,11 +20,11 @@
 - ✅ 自定义页面评论提醒
 - ✅ 瞬间动态收到评论提醒
 
-每个模板都使用现代 HTML + 内联 CSS 设计，适配各类邮箱客户端，并可自由修改颜色、字体、LOGO、域名等。
+每个模板都使用 HTML + 内联 CSS 设计，适配各类邮箱客户端，并可自由修改颜色、字体、LOGO、域名等。
 
 ---
 
-## 🛠 使用方法（面向小白）
+## 🛠 使用方法
 
 ### 1. 下载模板
 
@@ -63,7 +63,7 @@ ight="838" alt="屏幕截图 2025-07-25 153053" src="https://github.com/user-att
 你可以访问我部署的 Halo 博客查看实际样式：
 
 🔗 https://blog.fsyl001.sbs/
-站点名称：風神翼龍の小破站
+站点名称：风神翼龙の小破站
 
 <img width="1128" height="1005" alt="屏幕截图 2025-07-25 153034" src="https://github.com/user-attachments/assets/0a0bacc2-ce90-4ae5-800f-0d1ef7a68e97" />
 <img width="1150" height="1168" alt="屏幕截图 2025-07-25 153013" src="https://github.com/user-attachments/assets/1e787625-1ded-489a-a2f3-763db8832b0a" />
@@ -77,7 +77,7 @@ ight="838" alt="屏幕截图 2025-07-25 153053" src="https://github.com/user-att
 
 🌐 博客：https://blog.fsyl001.sbs/
 
-如需合作、定制模板或商业用途，请邮件联系我。
+
 
 
 🛡️ 开源协议
@@ -88,7 +88,7 @@ ight="838" alt="屏幕截图 2025-07-25 153053" src="https://github.com/user-att
 您可以自由分享、修改和使用本项目内容，但：
 ✅ 必须注明原作者「风神翼龙」
 ❌ 严禁任何商业用途（例如嵌入付费系统、出售模板等）
-如需商用授权，请联系作者。
+
 
 版权所有 © 风神翼龙（email@fsyl001.sbs）
 
